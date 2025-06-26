@@ -25,7 +25,7 @@ public class MyController {
     }
 
     @GET
-    @Path("/test")
+    @Path("/hello")
     @Transactional
     public String hello() {
         return "Hello quarkus";
